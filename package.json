@@ -1,0 +1,10 @@
+{
+  "name": "soap-request",
+  "version": "1.0.0",
+  "repository":{
+        "type": "git",
+        "url": "https://github.com/necudeco/soap-request"
+  },
+  "keywords":["soap", "ntlm", "webservices"],
+  "author": "necudeco@gmail.com"
+}
