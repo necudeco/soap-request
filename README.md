@@ -14,15 +14,15 @@ For use:
         workstation: ''
     };
     
-    const params = {
+const params = {
         'No':'EMPL000014'
     };
     
     
-  soap.soap(url, urn, credentials, params,  function(err, res){
-      if ( err ) console.log(err);
+soap.soap(url, urn, credentials, params,  function(err, res){
+  if ( err ) console.log(err);
             
-       console.log(res.body);
+  console.log(res.body);
     
   });
     
